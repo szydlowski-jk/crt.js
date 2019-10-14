@@ -1,0 +1,73 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #101010;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(400px, 100vw);
+      grid-template-columns: minmax(400px, 100vw);
+  -ms-grid-rows: minmax(400px, 100vh);
+      grid-template-rows: minmax(400px, 100vh);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.gc {
+  width: 100%;
+  height: 100%;
+}
+
+.igcontainer {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.igcontainer .imgcontainer {
+  width: 25vw;
+  padding: 20px;
+}
+
+.igcontainer .imgcontainer img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+#igimg1 {
+  width: 1fr;
+}
+
+#igimg2 {
+  width: 1fr;
+}
+
+#igimg3 {
+  width: 1fr;
+}
+
+#igimg4 {
+  width: 1fr;
+}
+
+.flowpaper-logo-bg {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
